@@ -14,6 +14,25 @@ const imgImage4 = "/a8ff0164b8752e05392ea251a5301cb7806c773e.png";
 const imgImage5 = "/e1ad8fff5f3f11c209993e949421914682668eba.webp";
 const imgIPadPro2018 = "/bab5c1b5a4e8ee101a8fb7706241ebd41848e24d.png";
 
+function TestAnimation() {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 1 }}
+      style={{
+        background: "red",
+        height: "100px",
+        width: "100px",
+        margin: "20px",
+      }}
+    >
+      Test Animation
+    </motion.div>
+  );
+}
+
 function TextContainer() {
   return (
     <div
@@ -2339,10 +2358,11 @@ function Container8() {
   );
 }
 
-export default function App() {
+export default function Page() {
   return (
     <div
       className="bg-white relative size-full overflow-x-hidden"
+      style={{ height: "5500px" }}
       data-name="Container"
     >
       {/* Background Image */}

@@ -538,7 +538,7 @@ function TextContainer11() {
 function Image() {
   return (
     <div
-      className="absolute bg-center bg-cover bg-no-repeat h-[477px] left-0 top-0 w-[786px]"
+      className="absolute bg-contain bg-center bg-no-repeat h-[477px] left-0 top-0 w-[786px]"
       data-name="Image"
       style={{ backgroundImage: `url('${imgImage2}')` }}
     />
@@ -2081,267 +2081,265 @@ function Gruppo1() {
 
 function IconContainer6() {
   return (
-    <AnimatedSection direction="up" delay={0.3}>
+    <div
+      className="absolute bottom-[83.23px] contents translate-x-[-50%]"
+      data-name="Icon Container"
+      style={{ left: "calc(50% + 0px)" }}
+    >
       <div
-        className="absolute bottom-[83.23px] contents translate-x-[-50%]"
-        data-name="Icon Container"
-        style={{ left: "calc(50% + 0px)" }}
+        className="absolute bottom-[94.38px] h-[20.463px] translate-x-[-50%] w-[11.274px]"
+        data-name="Vector"
+        style={{ left: "calc(50% - 38.556px)" }}
       >
-        <div
-          className="absolute bottom-[94.38px] h-[20.463px] translate-x-[-50%] w-[11.274px]"
-          data-name="Vector"
-          style={{ left: "calc(50% - 38.556px)" }}
+        <svg
+          className="block size-full"
+          fill="none"
+          preserveAspectRatio="none"
+          viewBox="0 0 12 21"
         >
-          <svg
-            className="block size-full"
-            fill="none"
-            preserveAspectRatio="none"
-            viewBox="0 0 12 21"
-          >
-            <path
-              d={svgPaths.p4c4e500}
-              fill="var(--fill-0, #35749D)"
-              id="Vector"
-            />
-          </svg>
-        </div>
-        <div
-          className="absolute bottom-[94.38px] h-[17.028px] translate-x-[-50%] w-[13.055px]"
-          data-name="Vector"
-          style={{ left: "calc(50% - 25.557px)" }}
-        >
-          <svg
-            className="block size-full"
-            fill="none"
-            preserveAspectRatio="none"
-            viewBox="0 0 14 18"
-          >
-            <path
-              d={svgPaths.p38c6300}
-              fill="var(--fill-0, #35749D)"
-              id="Vector"
-            />
-          </svg>
-        </div>
-        <div
-          className="absolute bottom-[94.38px] h-[17.024px] translate-x-[-50%] w-[11.468px]"
-          data-name="Vector"
-          style={{ left: "calc(50% - 12.155px)" }}
-        >
-          <svg
-            className="block size-full"
-            fill="none"
-            preserveAspectRatio="none"
-            viewBox="0 0 12 18"
-          >
-            <path
-              d={svgPaths.p31621000}
-              fill="var(--fill-0, #35749D)"
-              id="Vector"
-            />
-          </svg>
-        </div>
-        <div
-          className="absolute bottom-[94.84px] h-[16.559px] translate-x-[-50%] w-[13.152px]"
-          data-name="Vector"
-          style={{ left: "calc(50% + 1.914px)" }}
-        >
-          <svg
-            className="block size-full"
-            fill="none"
-            preserveAspectRatio="none"
-            viewBox="0 0 14 17"
-          >
-            <path
-              d={svgPaths.p212e6a30}
-              fill="var(--fill-0, #35749D)"
-              id="Vector"
-            />
-          </svg>
-        </div>
-        <div
-          className="absolute bottom-[94.84px] h-[20.541px] translate-x-[-50%] w-[5.592px]"
-          data-name="Vector"
-          style={{ left: "calc(50% + 13.329px)" }}
-        >
-          <svg
-            className="block size-full"
-            fill="none"
-            preserveAspectRatio="none"
-            viewBox="0 0 6 21"
-          >
-            <path
-              d={svgPaths.p3a0cae00}
-              fill="var(--fill-0, #35749D)"
-              id="Vector"
-            />
-          </svg>
-        </div>
-        <div
-          className="absolute bottom-[94.38px] h-[17.024px] translate-x-[-50%] w-[11.468px]"
-          data-name="Vector"
-          style={{ left: "calc(50% + 23.42px)" }}
-        >
-          <svg
-            className="block size-full"
-            fill="none"
-            preserveAspectRatio="none"
-            viewBox="0 0 12 18"
-          >
-            <path
-              d={svgPaths.p2f1f01e0}
-              fill="var(--fill-0, #35749D)"
-              id="Vector"
-            />
-          </svg>
-        </div>
-        <div
-          className="absolute bottom-[94.84px] h-[19.995px] translate-x-[-50%] w-[13.149px]"
-          data-name="Vector"
-          style={{ left: "calc(50% + 37.483px)" }}
-        >
-          <svg
-            className="block size-full"
-            fill="none"
-            preserveAspectRatio="none"
-            viewBox="0 0 14 20"
-          >
-            <path
-              d={svgPaths.p2b8cdd00}
-              fill="var(--fill-0, #35749D)"
-              id="Vector"
-            />
-          </svg>
-        </div>
-        <div
-          className="absolute bottom-[94.38px] h-[17.028px] translate-x-[-50%] w-[13.055px]"
-          data-name="Vector"
-          style={{ left: "calc(50% + 52.205px)" }}
-        >
-          <svg
-            className="block size-full"
-            fill="none"
-            preserveAspectRatio="none"
-            viewBox="0 0 14 18"
-          >
-            <path
-              d={svgPaths.p1e0ffe00}
-              fill="var(--fill-0, #35749D)"
-              id="Vector"
-            />
-          </svg>
-        </div>
-        <div
-          className="absolute bottom-[94.84px] h-[16.559px] translate-x-[-50%] w-[13.149px]"
-          data-name="Vector"
-          style={{ left: "calc(50% + 73.739px)" }}
-        >
-          <svg
-            className="block size-full"
-            fill="none"
-            preserveAspectRatio="none"
-            viewBox="0 0 14 17"
-          >
-            <path
-              d={svgPaths.p6370780}
-              fill="var(--fill-0, #35749D)"
-              id="Vector"
-            />
-          </svg>
-        </div>
-        <div
-          className="absolute bottom-[94.38px] h-[16.562px] translate-x-[-50%] w-[13.149px]"
-          data-name="Vector"
-          style={{ left: "calc(50% + 88.304px)" }}
-        >
-          <svg
-            className="block size-full"
-            fill="none"
-            preserveAspectRatio="none"
-            viewBox="0 0 14 17"
-          >
-            <path
-              d={svgPaths.pefec100}
-              fill="var(--fill-0, #35749D)"
-              id="Vector"
-            />
-          </svg>
-        </div>
-        <div
-          className="absolute bottom-[94.38px] h-[17.028px] translate-x-[-50%] w-[14.096px]"
-          data-name="Vector"
-          style={{ left: "calc(50% + 103.352px)" }}
-        >
-          <svg
-            className="block size-full"
-            fill="none"
-            preserveAspectRatio="none"
-            viewBox="0 0 15 18"
-          >
-            <path
-              d={svgPaths.p15647480}
-              fill="var(--fill-0, #35749D)"
-              id="Vector"
-            />
-          </svg>
-        </div>
-        <div
-          className="absolute bottom-[94.84px] h-[16.097px] translate-x-[-50%] w-[13.908px]"
-          data-name="Vector"
-          style={{ left: "calc(50% + 117.419px)" }}
-        >
-          <svg
-            className="block size-full"
-            fill="none"
-            preserveAspectRatio="none"
-            viewBox="0 0 14 17"
-          >
-            <path
-              d={svgPaths.p14398e00}
-              fill="var(--fill-0, #35749D)"
-              id="Vector"
-            />
-          </svg>
-        </div>
-        <div
-          className="absolute bottom-[94.38px] h-[17.028px] translate-x-[-50%] w-[13.055px]"
-          data-name="Vector"
-          style={{ left: "calc(50% + 131.473px)" }}
-        >
-          <svg
-            className="block size-full"
-            fill="none"
-            preserveAspectRatio="none"
-            viewBox="0 0 14 18"
-          >
-            <path
-              d={svgPaths.p22fee600}
-              fill="var(--fill-0, #35749D)"
-              id="Vector"
-            />
-          </svg>
-        </div>
-        <div
-          className="absolute bottom-[83.23px] h-[43.387px] translate-x-[-50%] w-[43.384px]"
-          data-name="Vector"
-          style={{ left: "calc(50% - 71.308px)" }}
-        >
-          <svg
-            className="block size-full"
-            fill="none"
-            preserveAspectRatio="none"
-            viewBox="0 0 44 44"
-          >
-            <path
-              d={svgPaths.p2d9dba40}
-              fill="var(--fill-0, #35749D)"
-              id="Vector"
-            />
-          </svg>
-        </div>
-        <Gruppo1 />
+          <path
+            d={svgPaths.p4c4e500}
+            fill="var(--fill-0, #35749D)"
+            id="Vector"
+          />
+        </svg>
       </div>
-    </AnimatedSection>
+      <div
+        className="absolute bottom-[94.38px] h-[17.028px] translate-x-[-50%] w-[13.055px]"
+        data-name="Vector"
+        style={{ left: "calc(50% - 25.557px)" }}
+      >
+        <svg
+          className="block size-full"
+          fill="none"
+          preserveAspectRatio="none"
+          viewBox="0 0 14 18"
+        >
+          <path
+            d={svgPaths.p38c6300}
+            fill="var(--fill-0, #35749D)"
+            id="Vector"
+          />
+        </svg>
+      </div>
+      <div
+        className="absolute bottom-[94.38px] h-[17.024px] translate-x-[-50%] w-[11.468px]"
+        data-name="Vector"
+        style={{ left: "calc(50% - 12.155px)" }}
+      >
+        <svg
+          className="block size-full"
+          fill="none"
+          preserveAspectRatio="none"
+          viewBox="0 0 12 18"
+        >
+          <path
+            d={svgPaths.p31621000}
+            fill="var(--fill-0, #35749D)"
+            id="Vector"
+          />
+        </svg>
+      </div>
+      <div
+        className="absolute bottom-[94.84px] h-[16.559px] translate-x-[-50%] w-[13.152px]"
+        data-name="Vector"
+        style={{ left: "calc(50% + 1.914px)" }}
+      >
+        <svg
+          className="block size-full"
+          fill="none"
+          preserveAspectRatio="none"
+          viewBox="0 0 14 17"
+        >
+          <path
+            d={svgPaths.p212e6a30}
+            fill="var(--fill-0, #35749D)"
+            id="Vector"
+          />
+        </svg>
+      </div>
+      <div
+        className="absolute bottom-[94.84px] h-[20.541px] translate-x-[-50%] w-[5.592px]"
+        data-name="Vector"
+        style={{ left: "calc(50% + 13.329px)" }}
+      >
+        <svg
+          className="block size-full"
+          fill="none"
+          preserveAspectRatio="none"
+          viewBox="0 0 6 21"
+        >
+          <path
+            d={svgPaths.p3a0cae00}
+            fill="var(--fill-0, #35749D)"
+            id="Vector"
+          />
+        </svg>
+      </div>
+      <div
+        className="absolute bottom-[94.38px] h-[17.024px] translate-x-[-50%] w-[11.468px]"
+        data-name="Vector"
+        style={{ left: "calc(50% + 23.42px)" }}
+      >
+        <svg
+          className="block size-full"
+          fill="none"
+          preserveAspectRatio="none"
+          viewBox="0 0 12 18"
+        >
+          <path
+            d={svgPaths.p2f1f01e0}
+            fill="var(--fill-0, #35749D)"
+            id="Vector"
+          />
+        </svg>
+      </div>
+      <div
+        className="absolute bottom-[94.84px] h-[19.995px] translate-x-[-50%] w-[13.149px]"
+        data-name="Vector"
+        style={{ left: "calc(50% + 37.483px)" }}
+      >
+        <svg
+          className="block size-full"
+          fill="none"
+          preserveAspectRatio="none"
+          viewBox="0 0 14 20"
+        >
+          <path
+            d={svgPaths.p2b8cdd00}
+            fill="var(--fill-0, #35749D)"
+            id="Vector"
+          />
+        </svg>
+      </div>
+      <div
+        className="absolute bottom-[94.38px] h-[17.028px] translate-x-[-50%] w-[13.055px]"
+        data-name="Vector"
+        style={{ left: "calc(50% + 52.205px)" }}
+      >
+        <svg
+          className="block size-full"
+          fill="none"
+          preserveAspectRatio="none"
+          viewBox="0 0 14 18"
+        >
+          <path
+            d={svgPaths.p1e0ffe00}
+            fill="var(--fill-0, #35749D)"
+            id="Vector"
+          />
+        </svg>
+      </div>
+      <div
+        className="absolute bottom-[94.84px] h-[16.559px] translate-x-[-50%] w-[13.149px]"
+        data-name="Vector"
+        style={{ left: "calc(50% + 73.739px)" }}
+      >
+        <svg
+          className="block size-full"
+          fill="none"
+          preserveAspectRatio="none"
+          viewBox="0 0 14 17"
+        >
+          <path
+            d={svgPaths.p6370780}
+            fill="var(--fill-0, #35749D)"
+            id="Vector"
+          />
+        </svg>
+      </div>
+      <div
+        className="absolute bottom-[94.38px] h-[16.562px] translate-x-[-50%] w-[13.149px]"
+        data-name="Vector"
+        style={{ left: "calc(50% + 88.304px)" }}
+      >
+        <svg
+          className="block size-full"
+          fill="none"
+          preserveAspectRatio="none"
+          viewBox="0 0 14 17"
+        >
+          <path
+            d={svgPaths.pefec100}
+            fill="var(--fill-0, #35749D)"
+            id="Vector"
+          />
+        </svg>
+      </div>
+      <div
+        className="absolute bottom-[94.38px] h-[17.028px] translate-x-[-50%] w-[14.096px]"
+        data-name="Vector"
+        style={{ left: "calc(50% + 103.352px)" }}
+      >
+        <svg
+          className="block size-full"
+          fill="none"
+          preserveAspectRatio="none"
+          viewBox="0 0 15 18"
+        >
+          <path
+            d={svgPaths.p15647480}
+            fill="var(--fill-0, #35749D)"
+            id="Vector"
+          />
+        </svg>
+      </div>
+      <div
+        className="absolute bottom-[94.84px] h-[16.097px] translate-x-[-50%] w-[13.908px]"
+        data-name="Vector"
+        style={{ left: "calc(50% + 117.419px)" }}
+      >
+        <svg
+          className="block size-full"
+          fill="none"
+          preserveAspectRatio="none"
+          viewBox="0 0 14 17"
+        >
+          <path
+            d={svgPaths.p14398e00}
+            fill="var(--fill-0, #35749D)"
+            id="Vector"
+          />
+        </svg>
+      </div>
+      <div
+        className="absolute bottom-[94.38px] h-[17.028px] translate-x-[-50%] w-[13.055px]"
+        data-name="Vector"
+        style={{ left: "calc(50% + 131.473px)" }}
+      >
+        <svg
+          className="block size-full"
+          fill="none"
+          preserveAspectRatio="none"
+          viewBox="0 0 14 18"
+        >
+          <path
+            d={svgPaths.p22fee600}
+            fill="var(--fill-0, #35749D)"
+            id="Vector"
+          />
+        </svg>
+      </div>
+      <div
+        className="absolute bottom-[83.23px] h-[43.387px] translate-x-[-50%] w-[43.384px]"
+        data-name="Vector"
+        style={{ left: "calc(50% - 71.308px)" }}
+      >
+        <svg
+          className="block size-full"
+          fill="none"
+          preserveAspectRatio="none"
+          viewBox="0 0 44 44"
+        >
+          <path
+            d={svgPaths.p2d9dba40}
+            fill="var(--fill-0, #35749D)"
+            id="Vector"
+          />
+        </svg>
+      </div>
+      <Gruppo1 />
+    </div>
   );
 }
 
@@ -2378,7 +2376,7 @@ export default function Page() {
       {/* iPad Device */}
       <AnimatedSection direction="up" delay={0.5}>
         <div
-          className="absolute bg-[50%_48.94%] bg-no-repeat bg-size-[100.19%_193.77%] h-[401px] left-1/2 top-[667px] translate-x-[-50%] w-[1034px]"
+          className="absolute bg-[50%_48.94%] bg-no-repeat bg-cover h-[401px] left-1/2 top-[667px] translate-x-[-50%] w-[1034px]"
           data-name="iPad Pro 2018"
           style={{ backgroundImage: `url('${imgIPadPro2018}')` }}
         />

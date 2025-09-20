@@ -1,32 +1,32 @@
-import { motion } from 'motion/react';
-import { ReactNode } from 'react';
+import { motion } from "motion/react";
+import { ReactNode } from "react";
 
 interface AnimatedSectionProps {
   children: ReactNode;
-  direction?: 'up' | 'down' | 'left' | 'right' | 'fade';
+  direction?: "up" | "down" | "left" | "right" | "fade";
   delay?: number;
   duration?: number;
   className?: string;
 }
 
-export function AnimatedSection({ 
-  children, 
-  direction = 'up', 
-  delay = 0, 
+export function AnimatedSection({
+  children,
+  direction = "up",
+  delay = 0,
   duration = 0.8,
-  className = ''
+  className = "",
 }: AnimatedSectionProps) {
   const getInitialState = () => {
     switch (direction) {
-      case 'up':
+      case "up":
         return { opacity: 0, y: 30 };
-      case 'down':
+      case "down":
         return { opacity: 0, y: -30 };
-      case 'left':
+      case "left":
         return { opacity: 0, x: -30 };
-      case 'right':
+      case "right":
         return { opacity: 0, x: 30 };
-      case 'fade':
+      case "fade":
       default:
         return { opacity: 0 };
     }
@@ -34,13 +34,13 @@ export function AnimatedSection({
 
   const getAnimateState = () => {
     switch (direction) {
-      case 'up':
-      case 'down':
+      case "up":
+      case "down":
         return { opacity: 1, y: 0 };
-      case 'left':
-      case 'right':
+      case "left":
+      case "right":
         return { opacity: 1, x: 0 };
-      case 'fade':
+      case "fade":
       default:
         return { opacity: 1 };
     }
@@ -52,10 +52,10 @@ export function AnimatedSection({
       initial={getInitialState()}
       whileInView={getAnimateState()}
       viewport={{ once: true, margin: "-100px" }}
-      transition={{ 
-        duration, 
+      transition={{
+        duration,
         delay,
-        ease: [0.25, 0.4, 0.25, 1]
+        ease: [0.25, 0.4, 0.25, 1],
       }}
     >
       {children}

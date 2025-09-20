@@ -389,7 +389,7 @@ function TextContainer5() {
   return (
     <AnimatedSection direction="up" delay={0.1}>
       <div
-        className="basis-0 box-border content-stretch flex flex-col grow items-center justify-start min-h-px min-w-px pb-[48px] pt-0 px-0 relative shrink-0"
+        className="w-full box-border content-stretch flex flex-col items-center justify-start pb-[48px] pt-0 px-0 relative shrink-0"
         data-name="Text Container"
       >
         <div className="[text-shadow:rgba(42,86,117,0.2)_0px_7px_20px] font-['Manrope:ExtraBold',_sans-serif] font-extrabold leading-[0] mb-[-48px] relative shrink-0 text-[158px] text-center text-white tracking-[-1.738px] w-full">
@@ -428,7 +428,7 @@ function TextContainer7() {
   return (
     <AnimatedSection direction="up" delay={0.2}>
       <div
-        className="basis-0 box-border content-stretch flex flex-col grow items-center justify-start min-h-px min-w-px pb-[48px] pt-0 px-0 relative shrink-0"
+        className="w-full box-border content-stretch flex flex-col items-center justify-start pb-[48px] pt-0 px-0 relative shrink-0"
         data-name="Text Container"
       >
         <div className="[text-shadow:rgba(42,86,117,0.2)_0px_7px_20px] font-['Manrope:ExtraBold',_sans-serif] font-extrabold leading-[0] mb-[-48px] relative shrink-0 text-[158px] text-center text-white tracking-[-1.738px] w-full">
@@ -464,7 +464,7 @@ function TextContainer9() {
   return (
     <AnimatedSection direction="up" delay={0.3}>
       <div
-        className="basis-0 box-border content-stretch flex flex-col grow items-center justify-start min-h-px min-w-px pb-[48px] pt-0 px-0 relative shrink-0"
+        className="w-full box-border content-stretch flex flex-col items-center justify-start pb-[48px] pt-0 px-0 relative shrink-0"
         data-name="Text Container"
       >
         <div className="[text-shadow:rgba(42,86,117,0.2)_0px_7px_20px] font-['Manrope:ExtraBold',_sans-serif] font-extrabold leading-[0] mb-[-48px] relative shrink-0 text-[158px] text-center text-white tracking-[-1.738px] w-full">
@@ -479,7 +479,7 @@ function TextContainer9() {
 function Container() {
   return (
     <div
-      className="content-stretch flex gap-[32px] items-start justify-start relative shrink-0 w-full"
+      className="grid grid-cols-3 gap-[32px] relative shrink-0 w-full"
       data-name="Container"
     >
       <TextContainer5 />

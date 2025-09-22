@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
 export function generateViewport() {
   return {
-    width: 1200,
+    width: 1400,
     initialScale: 0,
     maximumScale: 0,
     userScalable: false,
